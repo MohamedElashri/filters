@@ -16,7 +16,7 @@ jobs:
           bash ./shell/AGH/dns.sh
       - name: Move files
         run: |
-          cd script
+          cd shell
           mv  adguard.txt dns.txt ../
       - name: Git push assets to Github and Coding
         run: |
