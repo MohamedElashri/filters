@@ -10,10 +10,10 @@ jobs:
       - uses: actions/checkout@main
       - name: Update Adguard
         run: |
-          bash ./shell/Adguard/main.sh
+          bash ./shell/Adguard/adguard.sh
       - name: Update Adguard Home
         run: |
-          bash ./shell/AGH/main.sh
+          bash ./shell/AGH/dns.sh
       - name: Move files
         run: |
           cd script
