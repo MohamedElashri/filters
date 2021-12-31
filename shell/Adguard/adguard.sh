@@ -26,6 +26,7 @@ curl -o i21.txt https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/ma
 curl -o i22.txt https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
 curl -o i23.txt https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_10_Useful/filter.txt
 curl -o i24.txt https://github.com/MrBukLau/filter-lists-for-ublock-origin/raw/master/filter_lists/iosfilterlist.txt
+curl -o i25.txt https://easylist-downloads.adblockplus.org/Liste_AR.txt
 
 
 # Start Merge and Duplicate Removal
