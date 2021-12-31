@@ -27,7 +27,7 @@ curl -o i22.txt https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/ma
 curl -o i23.txt https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_10_Useful/filter.txt
 curl -o i24.txt https://github.com/MrBukLau/filter-lists-for-ublock-origin/raw/master/filter_lists/iosfilterlist.txt
 curl -o i25.txt https://easylist-downloads.adblockplus.org/Liste_AR.txt
-
+curl -o i26.txt https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt
 
 # Start Merge and Duplicate Removal
 cat i*.txt > mergd.txt
