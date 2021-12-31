@@ -27,7 +27,5 @@ jobs:
           git add --all
           git commit -m "Updated at $(date)"
           git remote set-url origin git@github.com:MohamedElashri/filters.git
-          #git remote add origin "https://github.com/MohamedElashri/filters.git"
-          git fetch --unshallow origin
-          git push -u -f origin --all
+          git push git@github.com:${{ github.repository }}.git HEAD:master
       
