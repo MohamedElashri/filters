@@ -21,11 +21,15 @@ jobs:
       - name: Git push assets to Github and Coding
         run: |
           git init
-          git config --local user.name "actions"
-          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git branch -m main
           git add --all
           git commit -m "Updated at $(date)"
           git remote set-url origin git@github.com:MohamedElashri/filters.git
           git push git@github.com:${{ github.repository }}.git HEAD:master
+        env:
+          REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+          USERNAME: github-actions[bot]
+
       
