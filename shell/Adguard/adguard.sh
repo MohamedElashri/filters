@@ -1,5 +1,5 @@
 #!/bin/bash
-cd shell/adguard/src
+cd shell/Adguard/src
 
 # Start Download
 curl -o i1.txt https://filters.adtidy.org/android/filters/2_optimized.txt
