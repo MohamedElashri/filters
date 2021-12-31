@@ -27,7 +27,7 @@ jobs:
           git add --all
           git commit -m "Updated at $(date)"
           git remote set-url origin git@github.com:MohamedElashri/filters.git
-          git push git@github.com:${{ github.repository }}.git HEAD:master
+          git push https://$USERNAME:$REPO_KEY@github.com/MohamedElashri/filters.git
         env:
           REPO_KEY: ${{secrets.GITHUB_TOKEN}}
           USERNAME: github-actions[bot]
