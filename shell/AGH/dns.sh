@@ -38,7 +38,7 @@ curl -o i37.txt https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Ext
 curl -o i38.txt https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt
 curl -o i39.txt https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
 curl -o i40.txt https://www.github.developerdan.com/hosts/lists/facebook-extended.txt
-
+curl -o i41.txt https://github.com/abp-filters/abp-filters-anti-cv/raw/master/arabic.txt
 
 # Start Merge and Duplicate Removal
 cat i*.txt > mergd.txt
