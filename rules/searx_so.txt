@@ -1,0 +1,62 @@
+! Title: StackOverflow/Github Clones
+! Description: Removes Stack Overflow/GitHub clones/scrapers\ from my searx instances
+! Expires: 7 days
+
+
+
+
+! searx.melashri.me
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'codegrepper.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'codegrepr.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'pretagteam.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'githubmemory.')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'bountysource.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'bestofreactjs.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'coderedirect.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'issueexplorer.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'techinplanet.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'py4u.net')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'alltodev.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'javascript.tutorialink.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'codingwithfun.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'lifesaver.codes')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'localcoder.org')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'anycodings.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'solveforum.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'codehunter.cc')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'querythreads.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'issuecloser.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'errorsfixing.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'xspdf.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'exchangetuts.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'appsloveworld.com')]/..)
+searx.melashri.me##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'issueantenna.com')]/..)
+
+
+! searx.elashri.xyz
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'codegrepper.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'codegrepr.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'pretagteam.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'githubmemory.')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'bountysource.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'bestofreactjs.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'coderedirect.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'issueexplorer.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'techinplanet.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'py4u.net')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'alltodev.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'javascript.tutorialink.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'codingwithfun.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'lifesaver.codes')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'localcoder.org')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'anycodings.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'solveforum.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'codehunter.cc')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'querythreads.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'issuecloser.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'errorsfixing.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'xspdf.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'exchangetuts.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'appsloveworld.com')]/..)
+searx.elashri.xyz##:xpath(//div[contains(@class, 'result')]/div[contains(@class, 'external-link')][contains(., 'issueantenna.com')]/..)
+
